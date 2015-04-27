@@ -1,0 +1,31 @@
+{
+  "name": "cf",
+  "description": "CloudFoundry 2",
+  "long_description": "",
+  "maintainer": "YOUR_COMPANY_NAME",
+  "maintainer_email": "YOUR_EMAIL",
+  "license": "none",
+  "platforms": {
+    "ubuntu": ">= 12.04"
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "cf::default": "Installs CloudFoundry 2 via .deb"
+  },
+  "version": "0.0.1"
+}
