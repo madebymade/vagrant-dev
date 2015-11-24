@@ -17,7 +17,7 @@ Vagrant.configure(2) do |config|
   config.vm.network 'private_network', ip: '192.168.10.100'
 
   synced_folder_path = ENV['SYNCED_FOLDER_PATH'] || 'www'
-  synced_folder_type = ENV['SYNCED_FOLDER_TYPE'] || 'nfs'
+  synced_folder_type = ENV['SYNCED_FOLDER_TYPE'] || 'virtualbox'
 
   config.vm.synced_folder synced_folder_path, '/var/www/', type: synced_folder_type
 
