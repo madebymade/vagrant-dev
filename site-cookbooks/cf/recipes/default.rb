@@ -1,5 +1,5 @@
 remote_file '/tmp/cf_cli_amd64.deb' do
-  source 'http://go-cli.s3-website-us-east-1.amazonaws.com/releases/v6.11.2/cf-cli_amd64.deb'
+  source 'https://cli.run.pivotal.io/stable?release=debian64&version=6.16.1'
   mode 0644
 end
 
