@@ -1,5 +1,5 @@
 remote_file '/tmp/cf_cli_amd64.deb' do
-  source 'https://cli.run.pivotal.io/stable?release=debian64&version=6.16.1'
+  source 'https://cli.run.pivotal.io/stable?release=debian64&version=6.19.0'
   mode 0644
 end
 
